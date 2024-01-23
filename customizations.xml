@@ -1,0 +1,2217 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities>
+    <Entity>
+      <Name LocalizedName="ac_test" OriginalName="ac_test">pba_ac_test</Name>
+      <EntityInfo>
+        <entity Name="pba_ac_test">
+          <LocalizedNames>
+            <LocalizedName description="ac_test" languagecode="1033" />
+            <LocalizedName description="ac_test" languagecode="1029" />
+          </LocalizedNames>
+          <LocalizedCollectionNames>
+            <LocalizedCollectionName description="ac_tests" languagecode="1033" />
+            <LocalizedCollectionName description="ac_tests" languagecode="1029" />
+          </LocalizedCollectionNames>
+          <Descriptions>
+            <Description description="Custom Entity " languagecode="1033" />
+            <Description description="Custom Entity " languagecode="1029" />
+          </Descriptions>
+          <attributes>
+            <attribute PhysicalName="pba_ac_testId">
+              <Type>primarykey</Type>
+              <Name>pba_ac_testid</Name>
+              <LogicalName>pba_ac_testid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>0</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <ExternalName>col1</ExternalName>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <displaynames>
+                <displayname description="ac_test" languagecode="1033" />
+                <displayname description="ac_test" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor instancí entity" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="pba_col2">
+              <Type>nvarchar</Type>
+              <Name>pba_col2</Name>
+              <LogicalName>pba_col2</LogicalName>
+              <RequiredLevel>required</RequiredLevel>
+              <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <ExternalName>col2</ExternalName>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>1</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>100</MaxLength>
+              <Length>200</Length>
+              <displaynames>
+                <displayname description="col2" languagecode="1033" />
+                <displayname description="col2" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Primary attribute" languagecode="1033" />
+                <Description description="Primary attribute" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="pba_col3">
+              <Type>ntext</Type>
+              <Name>pba_col3</Name>
+              <LogicalName>pba_col3</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <ExternalName>col3</ExternalName>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>255</MaxLength>
+              <displaynames>
+                <displayname description="col3" languagecode="1029" />
+              </displaynames>
+            </attribute>
+            <attribute PhysicalName="pba_externalprimarykey">
+              <Type>int</Type>
+              <Name>pba_externalprimarykey</Name>
+              <LogicalName>pba_externalprimarykey</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>disabled</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <ExternalName>externalprimarykey</ExternalName>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-2147483648</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="col1" languagecode="1029" />
+              </displaynames>
+            </attribute>
+          </attributes>
+          <EntitySetName>pba_ac_tests</EntitySetName>
+          <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
+          <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+          <IsRequiredOffline>0</IsRequiredOffline>
+          <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+          <IsCollaboration>0</IsCollaboration>
+          <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+          <IsConnectionsEnabled>0</IsConnectionsEnabled>
+          <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+          <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
+          <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+          <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+          <IsSLAEnabled>0</IsSLAEnabled>
+          <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+          <DataProviderId>{b581d5dc-72e1-ea11-a81e-000d3af5fff1}</DataProviderId>
+          <DataSourceId>{451b6f6c-b68e-ee11-8179-000d3adf7d8e}</DataSourceId>
+          <IsBPFEntity>0</IsBPFEntity>
+          <OwnershipTypeMask>OrgOwned</OwnershipTypeMask>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+          <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+          <IsActivity>0</IsActivity>
+          <ActivityTypeMask></ActivityTypeMask>
+          <IsActivityParty>0</IsActivityParty>
+          <IsReplicated>0</IsReplicated>
+          <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+          <IsMailMergeEnabled>0</IsMailMergeEnabled>
+          <IsVisibleInMobile>0</IsVisibleInMobile>
+          <IsVisibleInMobileClient>0</IsVisibleInMobileClient>
+          <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+          <IsOfflineInMobileClient>0</IsOfflineInMobileClient>
+          <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+          <MobileOfflineFilters></MobileOfflineFilters>
+          <IsMapiGridEnabled>0</IsMapiGridEnabled>
+          <IsReadingPaneEnabled>0</IsReadingPaneEnabled>
+          <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+          <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <IsMappable>1</IsMappable>
+          <CanModifyAuditSettings>1</CanModifyAuditSettings>
+          <CanModifyMobileVisibility>1</CanModifyMobileVisibility>
+          <CanModifyMobileClientVisibility>1</CanModifyMobileClientVisibility>
+          <CanModifyMobileClientReadOnly>1</CanModifyMobileClientReadOnly>
+          <CanModifyMobileClientOffline>1</CanModifyMobileClientOffline>
+          <CanModifyConnectionSettings>1</CanModifyConnectionSettings>
+          <CanModifyDuplicateDetectionSettings>1</CanModifyDuplicateDetectionSettings>
+          <CanModifyMailMergeSettings>1</CanModifyMailMergeSettings>
+          <CanModifyQueueSettings>1</CanModifyQueueSettings>
+          <CanCreateAttributes>1</CanCreateAttributes>
+          <CanCreateForms>1</CanCreateForms>
+          <CanCreateCharts>0</CanCreateCharts>
+          <CanCreateViews>1</CanCreateViews>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+          <EnforceStateTransitions>0</EnforceStateTransitions>
+          <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
+          <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+          <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
+          <CanChangeTrackingBeEnabled>0</CanChangeTrackingBeEnabled>
+          <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+          <ExternalName>[dbo].[ac_test]</ExternalName>
+          <ExternalCollectionName>[dbo].[ac_test]s</ExternalCollectionName>
+          <IsMSTeamsIntegrationEnabled>0</IsMSTeamsIntegrationEnabled>
+          <IsSolutionAware>0</IsSolutionAware>
+        </entity>
+      </EntityInfo>
+      <FormXml>
+        <forms type="quick">
+          <systemform>
+            <formid>{cc9c5ffd-f6b8-456b-8ad6-7d9c6393c44e}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab verticallayout="true" id="{78187efe-d092-4f63-bf64-6d3b90c311fc}" IsUserDefined="1">
+                  <labels>
+                    <label description="" languagecode="1029" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{04a1a131-2abc-4f90-9c50-d585beb06af6}">
+                          <labels>
+                            <label description="OBECNÉ" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{840c9120-018d-4fa4-9be3-fa073c5ae48a}">
+                                <labels>
+                                  <label description="col2" languagecode="1029" />
+                                </labels>
+                                <control id="pba_col2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pba_col2" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Informace" languagecode="1029" />
+            </LocalizedNames>
+          </systemform>
+        </forms>
+        <forms type="main">
+          <systemform>
+            <formid>{5da7c2e3-4205-4342-a5a8-be153426e660}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab verticallayout="true" id="{90381587-05dd-4555-9e76-a5324269be9e}" IsUserDefined="1">
+                  <labels>
+                    <label description="Obecné" languagecode="1029" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{e9dfc024-9bce-4b69-baa7-b3038220a3e2}">
+                          <labels>
+                            <label description="Obecné" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{497c21bc-0e4c-4547-918b-03bf55654843}">
+                                <labels>
+                                  <label description="col2" languagecode="1029" />
+                                </labels>
+                                <control id="pba_col2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pba_col2" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Informace" languagecode="1029" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Formulář pro tuto entitu" languagecode="1029" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="card">
+          <systemform>
+            <formid>{4a547bf8-113e-4be6-a5b0-9ccc48304611}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab name="general" verticallayout="true" id="{776dc31b-4ac0-4bb0-92a1-c22c500fff9d}" IsUserDefined="0">
+                  <labels>
+                    <label description="" languagecode="1029" />
+                  </labels>
+                  <columns>
+                    <column width="25%">
+                      <sections>
+                        <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{004a3a04-e353-4bc4-ae04-9bb7e24ff5e4}">
+                          <labels>
+                            <label description="Pás barev" languagecode="1029" />
+                          </labels>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="75%">
+                      <sections>
+                        <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{39589fef-9820-456c-975f-76aae2798065}" IsUserDefined="0">
+                          <labels>
+                            <label description="Záhlaví" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{50900b81-d775-4ec4-803a-d5e50e76363f}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                                <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                              </cell>
+                              <cell id="{c6179e28-140a-4497-86f1-110f03f60590}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                              </cell>
+                              <cell id="{a6f40608-ee95-4522-abdd-dcacc398343d}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{cc5b3017-b745-4d0b-a8fe-094494b3b9c7}" IsUserDefined="0">
+                          <labels>
+                            <label description="Podrobnosti" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{6dd933a6-a11a-4ff1-b2c0-73999e35b9e6}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="col2" languagecode="1029" />
+                                </labels>
+                                <control id="pba_col2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pba_col2" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{d99b74e7-9e60-4640-8071-6c3541553bf4}" IsUserDefined="0">
+                          <labels>
+                            <label description="Zápatí" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{abed724e-36ed-4d14-a0fc-c205c5c7e1d1}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                                <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                              </cell>
+                              <cell id="{67f86d42-973f-4ed2-89c7-8d61cac3032e}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                              </cell>
+                              <cell id="{39b09218-96a1-4ffe-8c90-c6c867c7dcce}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Informace" languagecode="1029" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Formulář karty pro tuto entitu" languagecode="1029" />
+            </Descriptions>
+          </systemform>
+        </forms>
+      </FormXml>
+      <SavedQueries>
+        <savedqueries>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{0637a727-0c9f-ee11-be37-000d3adf77ae}</savedqueryid>
+            <querytype>8192</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical" output-format="xml-platform">
+                <entity name="pba_ac_test">
+                  <attribute name="pba_ac_testid" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="ac_tests" languagecode="1029" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Všechny aktivní ac_tests" languagecode="1029" />
+            </Descriptions>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{593fd148-756d-4a7c-9fbc-7c3105f3a763}</savedqueryid>
+            <layoutxml>
+              <grid name="pba_ac_tests" jump="pba_col2" select="1" icon="1" preview="1">
+                <row name="pba_ac_test" id="pba_ac_testid">
+                  <cell name="pba_col2" width="300" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>2</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ac_test">
+                  <attribute name="pba_ac_testid" />
+                  <attribute name="pba_col2" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Přidružené zobrazení záznamů typu ac_test" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>1</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{87f6d50f-1e7c-4c99-915a-4b7820ee1e2f}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="pba_col2" select="1" icon="1" preview="1">
+                <row name="result" id="pba_ac_testid">
+                  <cell name="pba_col2" width="300" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>4</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ac_test">
+                  <attribute name="pba_ac_testid" />
+                  <attribute name="pba_col2" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Rychle najít aktivní ac_tests" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{8c45d43a-d79b-4f6f-9d5e-b13e99e2333a}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="pba_col2" select="1" icon="1" preview="1">
+                <row name="result" id="pba_ac_testid">
+                  <cell name="pba_col2" width="300" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ac_test">
+                  <attribute name="pba_ac_testid" />
+                  <attribute name="pba_col2" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Všechny ac_tests" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{8a656513-1198-c598-bf9c-01eaab7c042a}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="pba_col2" select="1" icon="1" preview="1">
+                <row name="result" id="pba_ac_testid">
+                  <cell name="pba_col2" width="300" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>1048576</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ac_test">
+                  <attribute name="pba_ac_testid" />
+                  <attribute name="pba_col2" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Zobrazení Copilota ac_tests" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{f0b1286d-128c-4e92-82a2-acb0b5ddbbd0}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="pba_col2" select="1" icon="1" preview="1">
+                <row name="result" id="pba_ac_testid">
+                  <cell name="pba_col2" width="300" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>1</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ac_test">
+                  <attribute name="pba_ac_testid" />
+                  <attribute name="pba_col2" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Zobrazení rozšířeného hledání záznamů typu ac_test" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{69e0a352-d1b8-4543-afee-0541a540c4ed}</savedqueryid>
+            <layoutxml>
+              <grid name="pba_ac_tests" jump="pba_col2" select="1" icon="1" preview="0">
+                <row name="pba_ac_test" id="pba_ac_testid">
+                  <cell name="pba_col2" width="300" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>64</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ac_test">
+                  <attribute name="pba_ac_testid" />
+                  <attribute name="pba_col2" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Zobrazení vyhledávání záznamů typu ac_test" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+        </savedqueries>
+      </SavedQueries>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+    <Entity>
+      <Name LocalizedName="ahoj" OriginalName="ahoj">pba_ahoj</Name>
+      <EntityInfo>
+        <entity Name="pba_ahoj">
+          <LocalizedNames>
+            <LocalizedName description="ahoj" languagecode="1033" />
+            <LocalizedName description="ahoj" languagecode="1029" />
+          </LocalizedNames>
+          <LocalizedCollectionNames>
+            <LocalizedCollectionName description="ahojs" languagecode="1033" />
+            <LocalizedCollectionName description="ahojs" languagecode="1029" />
+          </LocalizedCollectionNames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1029" />
+          </Descriptions>
+          <attributes>
+            <attribute PhysicalName="CreatedBy">
+              <Type>lookup</Type>
+              <Name>createdby</Name>
+              <LogicalName>createdby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Vytvořil" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor uživatele, který záznam vytvořil" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedOn">
+              <Type>datetime</Type>
+              <Name>createdon</Name>
+              <LogicalName>createdon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>datetime</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Vytvořeno" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Datum a čas, kdy byl záznam vytvořen" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedOnBehalfBy">
+              <Type>lookup</Type>
+              <Name>createdonbehalfby</Name>
+              <LogicalName>createdonbehalfby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Vytvořil (delegát)" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor delegovaného uživatele, který záznam vytvořil" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ImportSequenceNumber">
+              <Type>int</Type>
+              <Name>importsequencenumber</Name>
+              <LogicalName>importsequencenumber</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind</DisplayMask>
+              <ImeMode>disabled</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-2147483648</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="Pořadové číslo importu" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Pořadové číslo importu, kterým byl záznam vytvořen" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedBy">
+              <Type>lookup</Type>
+              <Name>modifiedby</Name>
+              <LogicalName>modifiedby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Upravil" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor uživatele, který záznam upravil" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedOn">
+              <Type>datetime</Type>
+              <Name>modifiedon</Name>
+              <LogicalName>modifiedon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>datetime</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Upraveno" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Datum a čas, kdy byl záznam upraven" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedOnBehalfBy">
+              <Type>lookup</Type>
+              <Name>modifiedonbehalfby</Name>
+              <LogicalName>modifiedonbehalfby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Upravil (delegát)" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor delegovaného uživatele, který záznam upravil" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OverriddenCreatedOn">
+              <Type>datetime</Type>
+              <Name>overriddencreatedon</Name>
+              <LogicalName>overriddencreatedon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>date</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Záznam vytvořen dne" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Datum a čas, kdy byl záznam migrován" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwnerId">
+              <Type>owner</Type>
+              <Name>ownerid</Name>
+              <LogicalName>ownerid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes>
+                <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+                <LookupType id="00000000-0000-0000-0000-000000000000">9</LookupType>
+              </LookupTypes>
+              <displaynames>
+                <displayname description="Vlastník" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="ID vlastníka" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningBusinessUnit">
+              <Type>lookup</Type>
+              <Name>owningbusinessunit</Name>
+              <LogicalName>owningbusinessunit</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Vlastnící organizační jednotka" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor organizační jednotky, která záznam vlastní" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningTeam">
+              <Type>lookup</Type>
+              <Name>owningteam</Name>
+              <LogicalName>owningteam</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsLogical>1</IsLogical>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Vlastnící tým" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor týmu, který záznam vlastní" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningUser">
+              <Type>lookup</Type>
+              <Name>owninguser</Name>
+              <LogicalName>owninguser</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsLogical>1</IsLogical>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Vlastnící uživatel" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor uživatele, který záznam vlastní" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="pba_ahojId">
+              <Type>primarykey</Type>
+              <Name>pba_ahojid</Name>
+              <LogicalName>pba_ahojid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>0</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <displaynames>
+                <displayname description="ahoj" languagecode="1033" />
+                <displayname description="ahoj" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Jedinečný identifikátor instancí entity" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="pba_Name">
+              <Type>nvarchar</Type>
+              <Name>pba_name</Name>
+              <LogicalName>pba_name</LogicalName>
+              <RequiredLevel>required</RequiredLevel>
+              <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>1</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>100</MaxLength>
+              <Length>200</Length>
+              <displaynames>
+                <displayname description="Name" languagecode="1033" />
+                <displayname description="Name" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="" languagecode="1033" />
+                <Description description="" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="statecode">
+              <Type>state</Type>
+              <Name>statecode</Name>
+              <LogicalName>statecode</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <optionset Name="pba_ahoj_statecode">
+                <OptionSetType>state</OptionSetType>
+                <IntroducedVersion>1.0</IntroducedVersion>
+                <IsCustomizable>1</IsCustomizable>
+                <displaynames>
+                  <displayname description="Stav" languagecode="1029" />
+                </displaynames>
+                <Descriptions>
+                  <Description description="Stav záznamu typu ahoj" languagecode="1029" />
+                </Descriptions>
+                <states>
+                  <state value="0" defaultstatus="1" invariantname="Active">
+                    <labels>
+                      <label description="Aktivní" languagecode="1029" />
+                    </labels>
+                  </state>
+                  <state value="1" defaultstatus="2" invariantname="Inactive">
+                    <labels>
+                      <label description="Neaktivní" languagecode="1029" />
+                    </labels>
+                  </state>
+                </states>
+              </optionset>
+              <displaynames>
+                <displayname description="Stav" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Stav záznamu typu ahoj" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="statuscode">
+              <Type>status</Type>
+              <Name>statuscode</Name>
+              <LogicalName>statuscode</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <optionset Name="pba_ahoj_statuscode">
+                <OptionSetType>status</OptionSetType>
+                <IntroducedVersion>1.0</IntroducedVersion>
+                <IsCustomizable>1</IsCustomizable>
+                <displaynames>
+                  <displayname description="Důvod stavu" languagecode="1029" />
+                </displaynames>
+                <Descriptions>
+                  <Description description="Důvod stavu záznamu typu ahoj" languagecode="1029" />
+                </Descriptions>
+                <statuses>
+                  <status value="1" state="0">
+                    <labels>
+                      <label description="Aktivní" languagecode="1029" />
+                    </labels>
+                  </status>
+                  <status value="2" state="1">
+                    <labels>
+                      <label description="Neaktivní" languagecode="1029" />
+                    </labels>
+                  </status>
+                </statuses>
+              </optionset>
+              <displaynames>
+                <displayname description="Důvod stavu" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Důvod stavu záznamu typu ahoj" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="TimeZoneRuleVersionNumber">
+              <Type>int</Type>
+              <Name>timezoneruleversionnumber</Name>
+              <LogicalName>timezoneruleversionnumber</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-1</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="Číslo verze pravidla pro časové pásmo" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Pouze pro vnitřní potřebu" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="UTCConversionTimeZoneCode">
+              <Type>int</Type>
+              <Name>utcconversiontimezonecode</Name>
+              <LogicalName>utcconversiontimezonecode</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-1</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="Kód časového pásma pro převod ze standardu UTC" languagecode="1029" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Kód časového pásma, které bylo aktivní při vytvoření tohoto záznamu" languagecode="1029" />
+              </Descriptions>
+            </attribute>
+          </attributes>
+          <EntitySetName>pba_ahojs</EntitySetName>
+          <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+          <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+          <IsRequiredOffline>0</IsRequiredOffline>
+          <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+          <IsCollaboration>0</IsCollaboration>
+          <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+          <IsConnectionsEnabled>0</IsConnectionsEnabled>
+          <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+          <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
+          <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+          <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+          <IsSLAEnabled>0</IsSLAEnabled>
+          <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+          <IsBPFEntity>0</IsBPFEntity>
+          <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+          <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+          <IsActivity>0</IsActivity>
+          <ActivityTypeMask></ActivityTypeMask>
+          <IsActivityParty>0</IsActivityParty>
+          <IsReplicated>0</IsReplicated>
+          <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+          <IsMailMergeEnabled>1</IsMailMergeEnabled>
+          <IsVisibleInMobile>0</IsVisibleInMobile>
+          <IsVisibleInMobileClient>0</IsVisibleInMobileClient>
+          <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+          <IsOfflineInMobileClient>0</IsOfflineInMobileClient>
+          <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+          <MobileOfflineFilters></MobileOfflineFilters>
+          <IsMapiGridEnabled>1</IsMapiGridEnabled>
+          <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+          <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+          <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <IsMappable>1</IsMappable>
+          <CanModifyAuditSettings>1</CanModifyAuditSettings>
+          <CanModifyMobileVisibility>1</CanModifyMobileVisibility>
+          <CanModifyMobileClientVisibility>1</CanModifyMobileClientVisibility>
+          <CanModifyMobileClientReadOnly>1</CanModifyMobileClientReadOnly>
+          <CanModifyMobileClientOffline>1</CanModifyMobileClientOffline>
+          <CanModifyConnectionSettings>1</CanModifyConnectionSettings>
+          <CanModifyDuplicateDetectionSettings>1</CanModifyDuplicateDetectionSettings>
+          <CanModifyMailMergeSettings>1</CanModifyMailMergeSettings>
+          <CanModifyQueueSettings>1</CanModifyQueueSettings>
+          <CanCreateAttributes>1</CanCreateAttributes>
+          <CanCreateForms>1</CanCreateForms>
+          <CanCreateCharts>1</CanCreateCharts>
+          <CanCreateViews>1</CanCreateViews>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+          <EnforceStateTransitions>0</EnforceStateTransitions>
+          <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
+          <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+          <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
+          <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
+          <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+          <IsMSTeamsIntegrationEnabled>0</IsMSTeamsIntegrationEnabled>
+          <IsSolutionAware>0</IsSolutionAware>
+        </entity>
+      </EntityInfo>
+      <FormXml>
+        <forms type="quick">
+          <systemform>
+            <formid>{2c0e858b-3b4c-469a-9c53-6ff57f092ce8}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab verticallayout="true" id="{52a4ffcc-c392-4fea-878a-124281309fd8}" IsUserDefined="1">
+                  <labels>
+                    <label description="" languagecode="1029" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{24d2ccdd-0fc8-4448-ac54-4f5bb74f59b7}">
+                          <labels>
+                            <label description="OBECNÉ" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{eb324245-7c0f-4c95-bc01-a46f13372b77}">
+                                <labels>
+                                  <label description="Name" languagecode="1029" />
+                                </labels>
+                                <control id="pba_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pba_name" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{39178f38-4307-4b44-9d1b-a093cea59fc2}">
+                                <labels>
+                                  <label description="Vlastník" languagecode="1029" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Informace" languagecode="1029" />
+            </LocalizedNames>
+          </systemform>
+        </forms>
+        <forms type="main">
+          <systemform>
+            <formid>{192f29ff-ba7f-44ec-ab9b-bb0a339547ee}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form headerdensity="HighWithControls">
+              <tabs>
+                <tab verticallayout="true" id="{b4cfa64b-ddb4-4036-ac5e-24fafc1a5c7f}" IsUserDefined="1">
+                  <labels>
+                    <label description="Obecné" languagecode="1029" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{de5adc07-22cd-4e8b-a9c6-bde60d47572c}">
+                          <labels>
+                            <label description="Obecné" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{28604ddc-ef18-410d-92a8-f9cf5eab5dbb}">
+                                <labels>
+                                  <label description="Name" languagecode="1029" />
+                                </labels>
+                                <control id="pba_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pba_name" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{3fe8cd8c-9bb9-4466-9542-73b7c0b5a925}">
+                                <labels>
+                                  <label description="Vlastník" languagecode="1029" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{aadeb8df-aecf-411a-9b5c-b18b81781a7d}" locklevel="0" colspan="1" rowspan="1">
+                                <labels>
+                                  <label description="Stav" languagecode="1029" />
+                                </labels>
+                                <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{ba893ba1-582f-4a5d-a78f-a315e1b4c015}" locklevel="0" colspan="1" rowspan="1">
+                                <labels>
+                                  <label description="Upraveno" languagecode="1029" />
+                                </labels>
+                                <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{26230be5-c042-4a50-be2f-5836ba4c68ce}" locklevel="0" colspan="1" rowspan="1">
+                                <labels>
+                                  <label description="Vytvořeno" languagecode="1029" />
+                                </labels>
+                                <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <header id="{7ad3535a-1118-4064-8016-ed92a43fea56}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+                <rows>
+                  <row>
+                    <cell id="{6a5e9d3d-ba63-46e1-b8e4-d142ea3ae53a}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1029" />
+                      </labels>
+                    </cell>
+                    <cell id="{29e88162-c2d2-4e1a-ac93-d96b59821ec4}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1029" />
+                      </labels>
+                    </cell>
+                    <cell id="{17e531d5-62f0-40f3-90d1-8eacdc43d899}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1029" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </header>
+              <footer id="{716043f4-3ea6-4442-84fe-4653253768ea}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+                <rows>
+                  <row>
+                    <cell id="{a0580f5d-784c-4ccb-980e-fedc4c1854af}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1029" />
+                      </labels>
+                    </cell>
+                    <cell id="{35b0a870-0139-4139-8379-5617259c1fe5}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1029" />
+                      </labels>
+                    </cell>
+                    <cell id="{1f8f5a91-458e-44f3-9e50-da92721c50c1}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1029" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </footer>
+              <DisplayConditions Order="0" FallbackForm="true">
+                <Everyone />
+              </DisplayConditions>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Informace" languagecode="1029" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Formulář pro tuto entitu" languagecode="1029" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="card">
+          <systemform>
+            <formid>{2eaad4b3-d036-4097-811f-8bb5e23ac5a6}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab name="general" verticallayout="true" id="{fde4b855-f14e-407b-8f98-dd7c170b2859}" IsUserDefined="0">
+                  <labels>
+                    <label description="" languagecode="1029" />
+                  </labels>
+                  <columns>
+                    <column width="25%">
+                      <sections>
+                        <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{10bfcfd4-1f03-45f9-9d5d-67386ad54467}">
+                          <labels>
+                            <label description="Pás barev" languagecode="1029" />
+                          </labels>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="75%">
+                      <sections>
+                        <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{66541fb6-83d9-442d-b890-09da35b69b41}" IsUserDefined="0">
+                          <labels>
+                            <label description="Záhlaví" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{ee068f46-7339-47c7-b10d-b3919fad499e}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Důvod stavu" languagecode="1029" />
+                                </labels>
+                                <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                              </cell>
+                              <cell id="{885440a4-2ad1-4a5c-9ba3-6c3c8fe09725}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                              </cell>
+                              <cell id="{039f997c-976a-4512-b5ad-e19b96339527}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{d5e23380-ed0c-4ded-8b69-f687f5668519}" IsUserDefined="0">
+                          <labels>
+                            <label description="Podrobnosti" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{002afd21-22cd-418f-b72e-20141c2ba56f}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Name" languagecode="1029" />
+                                </labels>
+                                <control id="pba_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pba_name" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{8666ee0c-6619-4469-9862-103f72686d4e}" IsUserDefined="0">
+                          <labels>
+                            <label description="Zápatí" languagecode="1029" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{1073ac0e-43c8-4293-8490-641c30bdda4f}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Vlastník" languagecode="1029" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                              </cell>
+                              <cell id="{e5bea637-fdf9-4d17-a81b-9784a9f5fe8a}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Vytvořeno" languagecode="1029" />
+                                </labels>
+                                <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                              </cell>
+                              <cell id="{39b65738-df72-453b-907a-26146e1e6817}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                              </cell>
+                              <cell id="{4a7814fa-0a1f-46ff-a0b5-b75655e2bb46}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1029" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Informace" languagecode="1029" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Formulář karty pro tuto entitu" languagecode="1029" />
+            </Descriptions>
+          </systemform>
+        </forms>
+      </FormXml>
+      <SavedQueries>
+        <savedqueries>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{0ab4efcf-147b-478e-aa11-cdd7c7d864d8}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="pba_name" select="1" icon="1" preview="1">
+                <row name="result" id="pba_ahojid">
+                  <cell name="pba_name" width="300" />
+                  <cell name="statuscode" width="112" />
+                  <cell name="createdon" width="125" />
+                  <cell name="statecode" width="100" />
+                  <cell name="modifiedby" width="100" />
+                  <cell name="ownerid" width="100" />
+                  <cell name="modifiedon" width="100" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ahoj">
+                  <attribute name="pba_ahojid" />
+                  <attribute name="pba_name" />
+                  <attribute name="createdon" />
+                  <order attribute="pba_name" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                  <attribute name="statecode" />
+                  <attribute name="modifiedby" />
+                  <attribute name="ownerid" />
+                  <attribute name="modifiedon" />
+                  <attribute name="statuscode" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Aktivní ahojs" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{eba4e0df-f614-ee11-8f6d-000d3adf77ae}</savedqueryid>
+            <querytype>8192</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical" output-format="xml-platform">
+                <entity name="pba_ahoj">
+                  <attribute name="pba_ahojid" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                    <condition attribute="ownerid" operator="eq-userid" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Moje ahojs" languagecode="1029" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Aktivní ahojs, které vlastním" languagecode="1029" />
+            </Descriptions>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>0</isdefault>
+            <savedqueryid>{21771a03-192a-4155-bf93-4eab456ae596}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="pba_name" select="1" icon="1" preview="1">
+                <row name="result" id="pba_ahojid">
+                  <cell name="pba_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ahoj">
+                  <attribute name="pba_ahojid" />
+                  <attribute name="pba_name" />
+                  <attribute name="createdon" />
+                  <order attribute="pba_name" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="1" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Neaktivní ahojs" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{9e88c86d-fd0c-4bf1-80bf-aa75b6aa550b}</savedqueryid>
+            <layoutxml>
+              <grid name="pba_ahojs" jump="pba_name" select="1" icon="1" preview="1">
+                <row name="pba_ahoj" id="pba_ahojid">
+                  <cell name="pba_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>2</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ahoj">
+                  <attribute name="pba_ahojid" />
+                  <attribute name="pba_name" />
+                  <attribute name="createdon" />
+                  <order attribute="pba_name" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Přidružené zobrazení záznamů typu ahoj" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>1</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{61d83eb8-333a-49d4-ad27-00baf92cd503}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="pba_name" select="1" icon="1" preview="1">
+                <row name="result" id="pba_ahojid">
+                  <cell name="pba_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>4</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ahoj">
+                  <attribute name="pba_ahojid" />
+                  <attribute name="pba_name" />
+                  <attribute name="createdon" />
+                  <order attribute="pba_name" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                  <filter type="or" isquickfindfields="1">
+                    <condition attribute="pba_name" operator="like" value="{0}" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Rychle najít aktivní ahojs" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{498dc044-08e7-4e9f-8681-64ef5a5cdd4c}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="pba_name" select="1" icon="1" preview="1">
+                <row name="result" id="pba_ahojid">
+                  <cell name="pba_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>1</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ahoj">
+                  <attribute name="pba_ahojid" />
+                  <attribute name="pba_name" />
+                  <attribute name="createdon" />
+                  <order attribute="pba_name" descending="false" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Zobrazení rozšířeného hledání záznamů typu ahoj" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{c6130e7e-8ec7-41aa-a811-fa23a64028f5}</savedqueryid>
+            <layoutxml>
+              <grid name="pba_ahojs" jump="pba_name" select="1" icon="1" preview="0">
+                <row name="pba_ahoj" id="pba_ahojid">
+                  <cell name="pba_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>64</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="pba_ahoj">
+                  <attribute name="pba_ahojid" />
+                  <attribute name="pba_name" />
+                  <attribute name="createdon" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Zobrazení vyhledávání záznamů typu ahoj" languagecode="1029" />
+            </LocalizedNames>
+          </savedquery>
+        </savedqueries>
+      </SavedQueries>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+  </Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{78b8687f-56a9-ee11-be37-000d3ad7bea1}" Name="Button -&gt; List rows">
+      <JsonFileName>/Workflows/Button-Listrows-78B8687F-56A9-EE11-BE37-000D3AD7BEA1.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1029" description="Button -&gt; List rows" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{16c13dea-a7ab-ee11-be37-000d3adf737b}" Name="Button -&gt; Get items">
+      <JsonFileName>/Workflows/Button-Getitems-16C13DEA-A7AB-EE11-BE37-000D3ADF737B.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1029" description="Button -&gt; Get items" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships>
+    <EntityRelationship Name="business_unit_pba_ahoj">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>pba_ahoj</ReferencingEntityName>
+      <ReferencedEntityName>BusinessUnit</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningBusinessUnit</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Jedinečný identifikátor organizační jednotky, která záznam vlastní" languagecode="1029" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="lk_pba_ahoj_createdby">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>pba_ahoj</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Jedinečný identifikátor uživatele, který záznam vytvořil" languagecode="1029" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="lk_pba_ahoj_modifiedby">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>pba_ahoj</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Jedinečný identifikátor uživatele, který záznam upravil" languagecode="1029" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="owner_pba_ahoj">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>pba_ahoj</ReferencingEntityName>
+      <ReferencedEntityName>Owner</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwnerId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="ID vlastníka" languagecode="1029" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="team_pba_ahoj">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>pba_ahoj</ReferencingEntityName>
+      <ReferencedEntityName>Team</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Jedinečný identifikátor týmu, který záznam vlastní" languagecode="1029" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="user_pba_ahoj">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>pba_ahoj</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningUser</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Jedinečný identifikátor uživatele, který záznam vlastní" languagecode="1029" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+  </EntityRelationships>
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1029</Language>
+  </Languages>
+</ImportExportXml>
